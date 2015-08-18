@@ -1,0 +1,19 @@
+{
+    "name": "remotipart",
+    "homepage": "https://github.com/JangoSteve/remotipart",
+    "authors": ["Greg Leppert", "Steve Schwartz"],
+    "description": "Remotipart is a Ruby on Rails jquery library enabling AJAX file uploads with jQuery in Rails 3 and Rails 4 remote forms",
+    "main": "vendor/assets/javascripts/jquery.remotipart.js",
+    "license": "MIT",
+    "dependencies": {
+        "jquery": ">1.8.*",
+        "jquery-ujs": ">1.0.*",
+        "jquery-iframe-transport": ">1.0.*"
+    },
+    "ignore": [
+        "**/.*",
+        "Gemfile*",
+        "Rakefile",
+        "lib"
+    ]
+}
